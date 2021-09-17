@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reakt-dev-21305-authRole",
+      "UnauthRoleArn": "arn:aws:iam::235812810512:role/amplify-reakt-dev-21305-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::235812810512:role/amplify-reakt-dev-21305-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-reakt-dev-21305-deployment",
+      "UnauthRoleName": "amplify-reakt-dev-21305-unauthRole",
+      "StackName": "amplify-reakt-dev-21305",
+      "StackId": "arn:aws:cloudformation:us-east-2:235812810512:stack/amplify-reakt-dev-21305/6340e480-1427-11ec-b042-02226b473cc2",
+      "AmplifyAppId": "d1czckx717tsnf",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-reakt-dev-21305-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "reaKt": {}
+      },
+      "function": {
+        "reaKtPostConfirmation": {
+          "deploymentBucketName": "amplify-reakt-dev-21305-deployment",
+          "s3Key": "amplify-builds/reaKtPostConfirmation-7856327a44586c7a3671-build.zip"
+        }
+      }
+    }
+  }
+}
